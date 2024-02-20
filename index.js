@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 
 app.use("/", (req, res) => {
-  res.status(200).json("Hello world 97238");
+  res.status(200).json("Hello world");
 });
 
 app.listen(3000, () => {
