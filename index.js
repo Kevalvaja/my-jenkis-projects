@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 
 app.use("/", (req, res) => {
-  res.status(200).json("This is my first jenkins through deploy");
+  res.status(200).json("Hello world");
 });
 
 app.listen(3000, () => {
